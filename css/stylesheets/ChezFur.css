@@ -1,4 +1,11 @@
 body{
+background-image:
+url('LogoSmall.png');
+@media screen and {min-width:100px}
+}
+
+
+body{}
 color: bisque;
 background-color: peru;
 font-family: Arial
