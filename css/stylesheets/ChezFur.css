@@ -1,18 +1,90 @@
-body{ 
-	color: bisque;
-	background-color: peru;
-	font-family: Arial
-	}
 
-	div{
-		color: gainsboro;
-		background-color: saddlebrown;
-	{
+header{
+color: #ff4763;
+background-color: #f8f8ff;
+font-family: Arial
+}
+/*I chose this light pink color because it brings a sense of excitement and energy. 
+I thought the ghost white went well with the light pink because it let the pink stand out.*/
 
-	@media screen and {min-width: 750px} {
-	body{
-		color: mocassin;
-		background-color: maroon;
-		font-family: Georgia
+
+body{
+color: #add8e6;
+background-color: #0a0a0a;
+font-family: Arial
+}
+/*I chose the light blue because it gives a calm and loyal feeling. The black background
+allows the light blue to stand out on its own*/
+
+div{
+color: #006994;
+background-color: #171717;
+}
+
+@media screen and {min-width: 750px} {
+body{
+color: mocassin;
+background-color: maroon;
+font-family: Georgia
+}
+
+aside{
+color: #ade8ff;
+background-color: #474747;
+font-family: Georgia
+}
+
+ul{
+list-style-type: none;
+margin: 1.25em;
+}
+
+dt{
+list-style-type: none;
+margin: 1.25em;
+font-weight: bold;
+}
+
+dd{
+list-style-type: none;
+font-style: italic;
+}
+
+.Cats{
+	border:2px solid #ddd;
+	border-radius: 10px;
+	width: 90%;
+}
+
+.Menu{
+	font-family: Feelfree;
+	text-align: center;
+}
+
+.allergies{
+	font-family: Copperplate:
+}
+
+.Content{
+	background-color:#faf9f6;
+	width: 80%; 
+}
+
+a:link{
+	color:#ff0000;
+}
+
+/*visited link*/
+a:visited{
+	color:#ffa500
+}
+
+/*mouse over link */
+	a:hover{
+		color: #ff69b4;
 	}
+/* selected link */
+a: active{
+	color: #739bd0;
+}
 }
