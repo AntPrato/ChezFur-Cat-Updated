@@ -1,3 +1,20 @@
+a:link{
+	color:#ff0000;
+}
+
+/*visited link*/
+a:visited{
+	color:#ffa500
+}
+
+/*mouse over link */
+	a:hover{
+		color: #ff69b4;
+	}
+/* selected link */
+a: active{
+	color: #739bd0;
+}
 
 header{
 color: #ff4763;
@@ -31,12 +48,36 @@ font-family: Georgia
 aside{
 color: #ade8ff;
 background-color: #474747;
-font-family: Georgia
+font-family: Georgia;
+padding: 1px;
+border: 2px solid black;
+border-radius: 15px;
 }
 
 ul{
 list-style-type: none;
 margin: 1.25em;
+padding: 1px;
+width: 60px;
+}
+
+li a{
+display: block;
+margin: 1.25em;
+background-color: #d3d3d3;
+text-align: center;
+}
+
+column{
+float: left;
+}
+
+.left{
+width: 25%;
+}
+
+.right{
+width: 75%;
 }
 
 dt{
@@ -70,21 +111,9 @@ font-style: italic;
 	width: 80%; 
 }
 
-a:link{
-	color:#ff0000;
-}
 
-/*visited link*/
-a:visited{
-	color:#ffa500
-}
 
-/*mouse over link */
-	a:hover{
-		color: #ff69b4;
-	}
-/* selected link */
-a: active{
-	color: #739bd0;
+footer{
+text-align: center;
 }
 }
