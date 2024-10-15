@@ -35,9 +35,9 @@ allows the light blue to stand out on its own*/
 
 div{
 color: #006994;
-background-color: #171717;
+background-color: #f5f5dc;
 }
-/* The sea blue brings a little bit more professionalism, and the black background 
+/* The sea blue brings a little bit more professionalism, and the beige background 
 sets a more business like tone*/
 
 @media screen and {min-width: 750px} {
@@ -77,11 +77,11 @@ float: left;
 }
 
 .left{
-width: 25%;
+width: 50%;
 }
 
 .right{
-width: 75%;
+width: 50%;
 }
 
 dt{
