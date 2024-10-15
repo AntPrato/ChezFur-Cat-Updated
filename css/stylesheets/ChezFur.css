@@ -59,7 +59,7 @@ border-radius: 15px;
 
 ul{
 list-style-type: none;
-align: center
+text-align: center
 margin: 1.25em;
 padding: 1px;
 width: 60px;
@@ -67,7 +67,7 @@ width: 60px;
 
 li a{
 display: block;
-align: center
+text-align: center
 margin: 1.25em;
 background-color: #d3d3d3;
 text-align: center;
