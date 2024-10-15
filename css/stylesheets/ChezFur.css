@@ -84,6 +84,11 @@ width: 50%;
 width: 50%;
 }
 
+GroupCats{
+	float: left;
+	margin-right: 10px;
+}
+
 dt{
 list-style-type: none;
 margin: 1.25em;
