@@ -149,6 +149,7 @@ footer{
 text-align: center;
 }
 
+/*Base for styles for all screens*/
 .flex-container{
 	display: flex;
 	justify-content: center;
@@ -158,6 +159,17 @@ text-align: center;
 	padding: 10px;
 }
 
+/*Styles for small screens (up to 600px)*/
+@media (max-width:600px) {
+.flex-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: #b8860b;
+	overflow: scroll;
+	padding: 8px;
+}
 .image-format{
 max-width:150px;
 height: auto;
@@ -176,6 +188,7 @@ background-position: center;
 margin-left: auto;
 margin-right: auto;
 }
+
 
 .navcontainer{
 	display: flex;
