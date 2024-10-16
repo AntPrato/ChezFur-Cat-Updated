@@ -145,7 +145,7 @@ text-align: center;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	background-color: #0a0a0a;
+	background-color: #b8860b;
 	padding: 10px;
 }
 
@@ -162,7 +162,7 @@ font-weight: bold;
 .image-container{
 border-radius: 10px;
 width: 80%;
-background-color: #0a0a0a;
+background-color: #b8860b;
 background-position: center;
 margin-left: auto;
 margin-right: auto;
