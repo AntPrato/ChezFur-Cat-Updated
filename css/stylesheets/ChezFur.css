@@ -139,7 +139,16 @@ font-style: italic;
 footer{
 text-align: center;
 }
+
+.flex-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: #0a0a0a;
+	padding: 10px;
 }
+
 .image-format{
 max-width:150px;
 height: auto;
