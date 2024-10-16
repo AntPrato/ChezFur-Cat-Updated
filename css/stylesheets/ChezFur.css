@@ -41,6 +41,8 @@ background-color: #f5f5dc;
 /* The sea blue brings a little bit more professionalism, and the beige background 
 sets a more business like tone*/
 
+/* Rules apply to all small sceeens/*
+
 @media screen and {min-width: 750px} {
 body{
 color: mocassin;
@@ -78,6 +80,9 @@ text-align: center;
 }
 /* A light gray color here allows the list to be seen without having the background
 be a distraction*/
+
+
+/* Rules apply to Large Screens only*/
 
 column{
 float: left;
