@@ -201,7 +201,7 @@ margin-right: auto;
 /*Rules for Small Screen*/
 .navcontainer{
 	display: flex;
-	flex-direction: column; 
+	flex-direction: row; 
 	justify-content: flex-start;
 	align-items: center;
 	height: none;
