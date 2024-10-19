@@ -206,3 +206,16 @@ margin-right: auto;
 	align-items: center;
 	height: none;
 }
+
+.navigations{
+	background:#333
+	color:#d3d3d3
+	padding: 1em
+} 
+
+/*Styles for small screens*/
+@media (max-width: 600px) {
+	.navigations {
+		display: flex;		/*Use flexbox*/
+		flex-direction: row;	/*Arrange items horizontally*/
+		justify-content: space-around;	/*Space items evenly*/
