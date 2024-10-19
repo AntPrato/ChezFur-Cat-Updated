@@ -188,8 +188,39 @@ background-position: center;
 margin-left: auto;
 margin-right: auto;
 }
+	
+.nav-set{
+	background-color: ffb6c1;
+	padding: 10px; /*Around nav*/
+	margin-top:25px;
+}
 
+.nav-set ul{
+	list-style-type: none; /*Discard bullet points*/
+	padding: 0;
+	margin: 0;
+	display: flex; /*Horizontal*/
+	justify-content: space-between; /*space evenly*/
+	align-items: center;
+}
+
+.nav-set li{
+	flex: 1;
+	margin: 0-10px; /*Space between items*/
+}
+
+.nav-set a{
+	background-color: #add8e6
+	color: #f8f8ff; /*Ghost white*/
+	padding: 10px;
+	font-size: 1.0em;
+	text-align: center;
+}
+	
+
+	
 /*Rules for Large Screen*/
+	
 .navcontainer{
 	display: flex;
 	flex-direction: column; 
