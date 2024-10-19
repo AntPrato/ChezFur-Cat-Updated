@@ -41,7 +41,7 @@ background-color: #f5f5dc;
 /* The sea blue brings a little bit more professionalism, and the beige background 
 sets a more business like tone*/
 
-/* Rules apply to all small sceeens*/
+/* Rules apply to all small sceeens/*
 
 @media screen and {min-width: 750px} {
 body{
@@ -60,7 +60,7 @@ border-radius: 15px;
 }
 
 nav a{
-	display: flex; /*Enable flexbox on the ul*/
+	display: block;
 	text-align: center;
 	margin: 1.25em;
 	background-color: #d3d3d3;
@@ -72,11 +72,11 @@ nav a{
 
 
 li a{
-display: flex; /*Enable flex on each li*/
+display: block;
 text-align: center
 margin: 1.25em;
 background-color: #d3d3d3;
-
+text-align: center;
 }
 /* A light gray color here allows the list to be seen without having the background
 be a distraction*/
@@ -201,21 +201,8 @@ margin-right: auto;
 /*Rules for Small Screen*/
 .navcontainer{
 	display: flex;
-	flex-direction: row; 
+	flex-direction: column; 
 	justify-content: flex-start;
 	align-items: center;
 	height: none;
 }
-
-.navigations{
-	background:#333
-	color:#d3d3d3
-	padding: 1em
-} 
-
-/*Styles for small screens*/
-@media (max-width: 600px) {
-	.navigations {
-		display: flex;		/*Use flexbox*/
-		flex-direction: row;	/*Arrange items horizontally*/
-		justify-content: space-around;	/*Space items evenly*/
