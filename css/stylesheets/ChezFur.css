@@ -41,7 +41,7 @@ background-color: #f5f5dc;
 /* The sea blue brings a little bit more professionalism, and the beige background 
 sets a more business like tone*/
 
-/* Rules apply to all small sceeens/*
+/* Rules apply to all small sceeens*/
 
 @media screen and {min-width: 750px} {
 body{
