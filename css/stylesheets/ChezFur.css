@@ -60,7 +60,7 @@ border-radius: 15px;
 }
 
 nav a{
-	display: block;
+	display: flex; /*Enable flexbox on the ul*/
 	text-align: center;
 	margin: 1.25em;
 	background-color: #d3d3d3;
@@ -72,11 +72,11 @@ nav a{
 
 
 li a{
-display: block;
+display: flex; /*Enable flex on each li*/
 text-align: center
 margin: 1.25em;
 background-color: #d3d3d3;
-text-align: center;
+
 }
 /* A light gray color here allows the list to be seen without having the background
 be a distraction*/
