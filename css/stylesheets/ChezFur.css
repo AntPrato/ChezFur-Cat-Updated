@@ -82,12 +82,14 @@ nav a{
 	text-align: center;
 }
 
-
+ul{
+	list-style-type: none;
+	padding-left: 0;
 }
 
 
 li a{
-display: block;
+display: block
 text-align: center
 margin: 1.25em;
 background-color: #d3d3d3;
@@ -178,6 +180,7 @@ text-align: center;
 @media (max-width:600px) {
 .flex-container{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
@@ -197,6 +200,7 @@ font-weight: bold;
 
 .image-container{
 border-radius: 10px;
+object-fit: cover;
 width: 80%;
 background-color: #b8860b;
 background-position: center;
@@ -215,6 +219,7 @@ margin-right: auto;
 	padding: 0;
 	margin: 0;
 	display: flex; /*Horizontal*/
+	flex-wrap: wrap;
 	justify-content: space-between; /*space evenly*/
 	align-items: center;
 }
@@ -236,7 +241,7 @@ margin-right: auto;
 	
 /*Rules for Large Screen*/
 	
-nav.navcontainer{
+.navcontainer{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
