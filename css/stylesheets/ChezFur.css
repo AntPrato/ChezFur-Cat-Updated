@@ -56,7 +56,7 @@ background-color: #f5f5dc;
 /* The sea blue brings a little bit more professionalism, and the beige background 
 sets a more business like tone*/
 
-/* Rules apply to all small sceeens*/
+/* Rules apply to all small sceeens/*
 
 @media screen and {min-width: 750px} {
 body{
@@ -82,14 +82,12 @@ nav a{
 	text-align: center;
 }
 
-ul{
-	list-style-type: none;
-	padding-left: 0;
+
 }
 
 
 li a{
-display: block
+display: block;
 text-align: center
 margin: 1.25em;
 background-color: #d3d3d3;
@@ -180,7 +178,6 @@ text-align: center;
 @media (max-width:600px) {
 .flex-container{
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
@@ -200,7 +197,6 @@ font-weight: bold;
 
 .image-container{
 border-radius: 10px;
-object-fit: cover;
 width: 80%;
 background-color: #b8860b;
 background-position: center;
@@ -219,7 +215,6 @@ margin-right: auto;
 	padding: 0;
 	margin: 0;
 	display: flex; /*Horizontal*/
-	flex-wrap: wrap;
 	justify-content: space-between; /*space evenly*/
 	align-items: center;
 }
@@ -243,16 +238,16 @@ margin-right: auto;
 	
 .navcontainer{
 	display: flex;
-	flex-direction: column;
+	flex-direction: column; 
 	justify-content: flex-start;
 	align-items: center;
 	height: 100vh;
 }
 
 /*Rules for Small Screen*/
-nav.navcontainer{
+.navcontainer{
 	display: flex;
-	flex-direction: row; 
+	flex-direction: column; 
 	justify-content: flex-start;
 	align-items: center;
 	height: none;
