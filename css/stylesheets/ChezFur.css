@@ -141,7 +141,7 @@ font-style: italic;
 .Cats{
 	border:2px solid #ddd;
 	border-radius: 10px;
-	width: 90%;
+	width: 150px, 80px;
 }
 
 .Menu{
