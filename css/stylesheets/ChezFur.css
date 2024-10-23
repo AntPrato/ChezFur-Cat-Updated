@@ -56,7 +56,7 @@ background-color: #f5f5dc;
 /* The sea blue brings a little bit more professionalism, and the beige background 
 sets a more business like tone*/
 
-/* Rules apply to all small sceeens/*
+/* Rules apply to all small sceeens*/
 
 @media screen and {min-width: 750px} {
 body{
@@ -236,18 +236,18 @@ margin-right: auto;
 	
 /*Rules for Large Screen*/
 	
-.navcontainer{
+nav.navcontainer{
 	display: flex;
-	flex-direction: column; 
+	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
 	height: 100vh;
 }
 
 /*Rules for Small Screen*/
-.navcontainer{
+nav.navcontainer{
 	display: flex;
-	flex-direction: column; 
+	flex-direction: row; 
 	justify-content: flex-start;
 	align-items: center;
 	height: none;
