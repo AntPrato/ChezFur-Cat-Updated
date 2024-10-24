@@ -37,7 +37,7 @@ a: active{
 }
 
 .grid-item2{
-	grid-column: 5/ span 1;
+	grid-column: 3/ span 1;
    }
    
   .grid-item3{
