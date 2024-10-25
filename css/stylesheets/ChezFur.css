@@ -1,5 +1,4 @@
 
-
 a:link{
 	color:#ff0000;
 }
@@ -20,30 +19,21 @@ a: active{
 
 .grid-container{
 	display: grid;
-	grid-template-columns: repeat (auto-fill, minmax 200px, 1fr)
+	grid-template-columns: 750px,1500px;
 	background-color: #2196F3;
-	gap: 5px;
 	padding: 10px;
 }
 
-.grid-item img{
+.grid-item{
 	background-color: rgba (255,255,255, 0.8);
 	border: 1px solid rgba (0,0,0,0.8);
 	padding: 20px;
 	font-size: 30px;
 	text-align: center;
-	width: 100%;
-	height: auto;
-	display: block;
 }
 
-@media (max-width: 600px) {
-	.grid-container{
-		grid-template-columns: repeat (auto-fill, minmax(150px, 1fr));
-	}
 .grid-item1 {
   grid-column: 1 / 5;
- 
 }
 
 .grid-item2{
@@ -68,9 +58,6 @@ a: active{
     .grid-item6{
     	grid-column: 5/span 2;
     }
-
-
-
 header{
 color: #ff4763;
 background-color: #f8f8ff;
