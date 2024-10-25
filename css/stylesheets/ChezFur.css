@@ -17,11 +17,12 @@ a: active{
 	color: #739bd0;
 }
 
-/*Large Screen Only*/
+
 .grid-container{
 	display: grid;
-	grid-template-columns: 750px,1500px;
+	grid-template-columns: repeat (2, 1fr); /*Two equal columns for large screens*/
 	background-color: #2196F3; /*Blue goes nicely with the already established background color*/
+	gap: none;
 	padding: 10px;
 }
 
