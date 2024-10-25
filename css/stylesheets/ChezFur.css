@@ -60,10 +60,7 @@ a: active{
     	grid-column: 5/span 2; /*Cat 13 bottom right hand corner*/
     }
 
-/*Small screens only*/
-@media (max-width: 600px) {
-	.grid-view{
-		grid-template-columns: repeat (2, 1fr); /*Adjust the number of columns*/
+
 	}
 }
 header{
@@ -286,4 +283,11 @@ margin-right: auto;
 	justify-content: flex-start;
 	align-items: center;
 	height: none;
+}
+
+/*Small screens only*/
+@media (max-width: 600px) {
+	.grid-item{
+		grid-template-columns: repeat (2, 1fr); /*Adjust the number of columns*/
+	}
 }
