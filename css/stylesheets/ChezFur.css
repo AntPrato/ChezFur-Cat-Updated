@@ -34,7 +34,8 @@ a: active{
 }
 
 .grid-item1 {
-  grid-column: 1 / 5;
+  grid-column: 1 / 5; /*Large Screen only*/
+  grid-column: 1, span 2; /*Small screen only*/
 }
 
 .grid-item2{
