@@ -60,8 +60,9 @@ a: active{
     .grid-item6{
     	grid-column: 5/span 2;
     }
-box-sizing: border-box;
 
+@media only screen and (max-width: 600px) {
+/*For small screens*/
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -74,7 +75,7 @@ box-sizing: border-box;
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-
+}
 
 
 header{
