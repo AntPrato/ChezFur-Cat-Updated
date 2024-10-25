@@ -1,4 +1,5 @@
 
+
 a:link{
 	color:#ff0000;
 }
@@ -17,12 +18,10 @@ a: active{
 	color: #739bd0;
 }
 
-
 .grid-container{
 	display: grid;
-	grid-template-columns: repeat (2, 1fr); /*Two equal columns for large screens*/
-	background-color: #2196F3; /*Blue goes nicely with the already established background color*/
-	gap: none;
+	grid-template-columns: 750px,1500px;
+	background-color: #2196F3;
 	padding: 10px;
 }
 
@@ -35,47 +34,31 @@ a: active{
 }
 
 .grid-item1 {
-  grid-column: 1 / 5; /*I liked this spot for Cat 8 because it is almost looking off in the distance for customers*/
-	width: 60px; /*Default for small screens*/
-	height: 60px; /*Default for small screens*/
+  grid-column: 1 / 5;
 }
 
 .grid-item2{
-	grid-column: 5/ span 1; /* Cat 9 top right corner*/
-	width: 60px; /*Default for small screens*/
-	height: 60px; /*Default for small screens*/
+	grid-column: 5/ span 1;
    }
    
   .grid-item3{
   	grid-column: 3/span 2;
-    grid-row: 2/ span 3; /*Cat 10 right in the middle, staring right at us*/
-	  width: 60px; /*Default for small screens*/
-	height: 60px; /*Default for small screens*/
+    grid-row: 2/ span 3;
    }
   
   .grid-item4{
   	grid-column: 5/span 2;
-    grid-row: 3/ span 2; /*Cat 11 middle right*/
-	  width: 60px; /*Default for small screens*/
-	height: 60px; /*Default for small screens*/
+    grid-row: 3/ span 2;
    }
    
    .grid-item5{
    		grid-column: 1/span 2;
-        grid-row: 2/ span 3; /*Cat 12 a perfect choice for the long photo*/
-	   width: 60px; /*Default for small screens*/
-	height: 60px; /*Default for small screens*/
+        grid-row: 2/ span 3;
     }
     
     .grid-item6{
-    	grid-column: 5/span 2; /*Cat 13 bottom right hand corner*/
-	    width: 60px; /*Default for small screens*/
-	height: 60px; /*Default for small screens*/
+    	grid-column: 5/span 2;
     }
-
-
-	}
-}
 header{
 color: #ff4763;
 background-color: #f8f8ff;
@@ -296,5 +279,4 @@ margin-right: auto;
 	justify-content: flex-start;
 	align-items: center;
 	height: none;
-}
 }
