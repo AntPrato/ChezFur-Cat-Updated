@@ -59,6 +59,13 @@ a: active{
     .grid-item6{
     	grid-column: 5/span 2; /*Cat 13 bottom right hand corner*/
     }
+
+/*Small screens only*/
+@media (max-width: 600px) {
+	.grid-view{
+		grid-template-columns: repeat (2, 1fr); /*Adjust the number of columns*/
+	}
+}
 header{
 color: #ff4763;
 background-color: #f8f8ff;
