@@ -18,14 +18,14 @@ a: active{
 }
 
 .grid-container{
-	display: grid;
-	grid-template-columns: 750px,1500px;
-	background-color: #2196F3;
+	display: grid; /*Display items in a grid*/
+	grid-template-columns: 750px,1500px; /*Sizing of the grid on a large screen*/
+	background-color: #2196F3; /*Background color of the grid*/
 	padding: 10px;
 }
 
 .grid-item{
-	background-color: rgba (255,255,255, 0.8);
+	background-color: rgba (255,255,255, 0.8); /*Background color of the pictures*/
 	border: 1px solid rgba (0,0,0,0.8);
 	padding: 20px;
 	font-size: 30px;
@@ -33,7 +33,7 @@ a: active{
 }
 
 .grid-item1 {
-  grid-column: 1 / 5;
+  grid-column: 1 / 5; /*Place this image in the 
 }
 
 .grid-item2{
