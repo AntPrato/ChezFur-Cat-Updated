@@ -20,16 +20,10 @@ a: active{
 
 .grid-container{
 	display: grid; /*Display items in a grid*/
-	grid-template-columns: 750px,1500px /*Adjusts columns based on screen size*/
+	grid-template-columns: 750px,1500px;
 	background-color: #2196F3; /*Background color of the grid*/
 	padding: 10px;
 }
-
-@media (max-width: 600px) {
-	.grid-container{
-	grid-template-columns: 3fr; /*Adjust columns for small screens*/
-	grid-template-row: 2fr; /*Adjust rows for small screens*/
-	}
 
 .grid-item{
 	background-color: rgba (255,255,255, 0.8); /*Background color of the pictures*/
