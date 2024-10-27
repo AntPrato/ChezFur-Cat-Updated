@@ -27,7 +27,7 @@ a: active{
 
 @media (max-width: 600px) {
 	.grid-container{
-	grid-template-columns: 3fr; /*Single columns for small screens*/
+	grid-template-columns: 3fr; /*Adjust columns for small screens*/
 	}
 
 .grid-item{
