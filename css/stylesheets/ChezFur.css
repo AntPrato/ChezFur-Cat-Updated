@@ -60,6 +60,37 @@ a: active{
     	grid-column: 5/span 2; /*Placed to the right of the long image*/
     }
 
+@media (max-width: 600px) {
+	.grid-container{
+		grid-template-columns: 2fr; /*Two column layout on small screens*/
+
+	.grid-item1{
+		grid-column: 1/ span 2;
+	}
+
+	.grid-item2{
+		grid-template-column: 2/ span 2;
+	}
+
+	.grid-item3{
+		grid-template-column: 2/ span 1
+		grid-template-row: 2/ span 3;
+	}
+
+	.grid-item4{
+		grid-template-column: 2/ span 2;
+		grid-template-row: 4/ span 1;
+	}
+
+	.grid-item5{
+		grid-template-row: 5/ span 1;
+	}
+
+	.grid-item6{
+		grid-template-column: 2/ span 5
+		grid-template-row: 5/ span 3;
+	}
+		
 
 
 header{
