@@ -1,98 +1,43 @@
-
 a:link{
 	color:#ff0000;
 }
 
-/*visited link*/
-a:visited{
-	color:#ffa500
-}
-
-/*mouse over link */
-	a:hover{
-		color: #ff69b4;
-	}
-/* selected link */
-a: active{
-	color: #739bd0;
-}
-
 
 .grid-container{
-	display: grid; /*Display items in a grid*/
+	display: grid;
+	grid-template-columns: repeat (auto-fill, minmax 200px, 1fr)
 	grid-template-columns: 750px,1500px;
-	background-color: #2196F3; /*Background color of the grid*/
+	background-color: #2196F3;
+	gap: 5px;
 	padding: 10px;
 }
 
+.grid-item img{
 .grid-item{
-	background-color: rgba (255,255,255, 0.8); /*Background color of the pictures*/
+	background-color: rgba (255,255,255, 0.8);
 	border: 1px solid rgba (0,0,0,0.8);
 	padding: 20px;
 	font-size: 30px;
 	text-align: center;
+	width: 100%;
+	height: auto;
+	display: block;
 }
-
-.grid-item1 {
-  grid-column: 1 / 5; /*Place image in the middle left of the grid*/
-}
-
-.grid-item2{
-	grid-column: 5/ span 1; /*Place image in top right of the grid*/
-   }
-   
-  .grid-item3{
-  	grid-column: 3/span 2;
-    grid-row: 2/ span 3; /*Place image right in the middle of the grid*/
-   }
-  
-  .grid-item4{
-  	grid-column: 5/span 2;
-    grid-row: 3/ span 2; /*Place image middle right of the grid*/
-   }
-   
-   .grid-item5{
-   		grid-column: 1/span 2;
-        grid-row: 2/ span 3; /*Long image placed bottom left of the grid*/
-    }
-    
-    .grid-item6{
-    	grid-column: 5/span 2; /*Placed to the right of the long image*/
-    }
 
 @media (max-width: 600px) {
 	.grid-container{
-		grid-template-columns: 2fr; /*Two column layout on small screens*/
-
-	.grid-item1{
-		grid-column: 1/ span 2;
+		grid-template-columns: repeat (auto-fill, minmax(150px, 1fr));
 	}
+.grid-item1 {
+  grid-column: 1 / 5;
+ 
+}
 
-	.grid-item2{
-		grid-template-column: 2/ span 2;
-	}
-
-	.grid-item3{
-		grid-template-column: 2/ span 1
-		grid-template-row: 2/ span 3;
-	}
-
-	.grid-item4{
-		grid-template-column: 2/ span 2;
-		grid-template-row: 4/ span 1;
-	}
-
-	.grid-item5{
-		grid-template-row: 5/ span 1;
-	}
-
-	.grid-item6{
-		grid-template-column: 2/ span 5
-		grid-template-row: 5/ span 3;
-	}
-		
-
-
+.grid-item2{
+@@ -68,227 +58,224 @@
+    .grid-item6{
+    	grid-column: 5/span 2;
+    }
 header{
 color: #ff4763;
 background-color: #f8f8ff;
@@ -118,14 +63,12 @@ background-color: #f5f5dc;
 sets a more business like tone*/
 
 /* Rules apply to all small sceeens/*
-
 @media screen and {min-width: 750px} {
 body{
 color: mocassin;
 background-color: maroon;
 font-family: Georgia
 }
-
 aside{
 color: #ade8ff;
 background-color: #474747;
@@ -134,7 +77,6 @@ padding: 1px;
 border: 2px solid black;
 border-radius: 15px;
 }
-
 nav a{
 	display: block;
 	text-align: center;
@@ -142,11 +84,7 @@ nav a{
 	background-color: #d3d3d3;
 	text-align: center;
 }
-
-
 }
-
-
 li a{
 display: block;
 text-align: center
@@ -265,7 +203,7 @@ background-position: center;
 margin-left: auto;
 margin-right: auto;
 }
-	
+
 .nav-set{
 	background-color: ffb6c1;
 	padding: 10px; /*Around nav*/
@@ -293,11 +231,11 @@ margin-right: auto;
 	font-size: 1.0em;
 	text-align: center;
 }
-	
 
-	
+
+
 /*Rules for Large Screen*/
-	
+
 .navcontainer{
 	display: flex;
 	flex-direction: column; 
