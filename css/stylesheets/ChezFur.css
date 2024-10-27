@@ -20,7 +20,7 @@ a: active{
 
 .grid-container{
 	display: grid; /*Display items in a grid*/
-	grid-template-columns: repeat(auto-fit, minmax(750px,1fr)); /*Adjusts columns based on screen size*/
+	grid-template-columns: repeat(auto-fit, minmax(750px,3fr)); /*Adjusts columns based on screen size*/
 	background-color: #2196F3; /*Background color of the grid*/
 	padding: 10px;
 }
