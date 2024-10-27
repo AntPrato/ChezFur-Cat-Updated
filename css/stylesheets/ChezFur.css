@@ -46,8 +46,8 @@ a: active{
    }
   
   .grid-item4{
-  	grid-column: 3/span 2;
-    grid-row: 3/ span 1;
+  	grid-column: 5/span 2;
+    grid-row: 3/ span 2;
    }
    
    .grid-item5{
