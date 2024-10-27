@@ -19,7 +19,7 @@ a: active{
 
 .grid-container{
 	display: grid;
-	grid-template-columns: 750px,1500px;
+	grid-template-columns: auto auto auto;
 	background-color: #2196F3;
 	padding: 10px;
 }
@@ -36,7 +36,6 @@ a: active{
 
 .grid-item1 {
   grid-column: 1 / 5; /*Large Screen only*/
-  grid-column: 1, span 2; /*Small screen only*/
   grid-column: 1 / 5;
  
 }
