@@ -1,0 +1,52 @@
+@charset "UTF-8";
+body {
+    background-image: url(../Images/BackgroundFelines.jpg); /*Background images of cats will take up whole background*/
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #FFFEFE;
+    font-weight: bolder; /*Thicker text more easily visible*/
+    font-size: large;
+    background-attachment: scroll; /*When changing page size, background will go with it*/
+}
+
+h1 {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: xx-large;
+    text-align: center; /*Title in center of column*/
+    color: #FFFFFF;
+}
+
+
+p {
+    background-color: #000000;
+    border-left-style: solid;
+    width: auto;
+    color: #FFFDFD;
+}
+
+
+footer {
+    background-color: #000000;
+	bottom: 0px;
+	float: right; 
+	position: fixed; /*Stays in bottom of page*/
+	color: #FFFFFF;
+
+}
+
+
+body nav a {
+	color: #FFF9FA;
+	font-size: medium;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	text-align: center; /*Move towards center*/
+	
+}
+
+
+
+@media (max-width:700px){
+}
