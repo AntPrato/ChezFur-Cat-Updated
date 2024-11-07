@@ -277,6 +277,8 @@ margin-right: auto;
 	height: none;
 }
 
+
+/*Display for ALL screen sizes*/
 /*Style inputs*/
 input[type=text], select{
 	width: 100%;
